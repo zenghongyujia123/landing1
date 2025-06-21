@@ -1,0 +1,39 @@
+{
+  "name": "landpage1",
+  "version": "1.0.0",
+  "description": "Nuxt 3 Landing Page",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "keywords": [
+    "nuxt3",
+    "vue3",
+    "landing-page"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@selemondev/vue3-marquee": "^0.0.8",
+    "@shadcn/ui": "^0.0.4",
+    "@vueuse/core": "^13.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-vue": "^8.6.0",
+    "lucide-vue-next": "^0.519.0",
+    "nuxt": "^3.17.5",
+    "radix-vue": "^1.9.17",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1"
+  }
+}
