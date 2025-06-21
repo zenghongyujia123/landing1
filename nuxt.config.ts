@@ -4,6 +4,16 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+  nitro: {
+    output: {
+      dir: 'landpage1'
+    }
+  },
+  app: {
+    // 如果部署到GitHub Pages的子路径，取消下面一行的注释并修改为你的仓库名
+    // baseURL: '/landing1/',
+  },
+=======
   app: {
     head: {
       title: 'Nuxt 3 Landing Page',
